@@ -1,5 +1,5 @@
 import React from 'react';
-import Cosmetic from './Cosmetic/Cosmetic';
+import Cosmetic from '../Cosmetic/Cosmetic';
 
 const Cosmetics = () => {
     const cosmetics = [
@@ -11,12 +11,13 @@ const Cosmetics = () => {
         { id: 6, name: 'Fres-hwash', price: 300 }
     ];
     return (
-        <div>
+        <div style={{ border: '5px solid red', backgroundColor: 'green', margin: '10px' }}>
             <h4>Cosmetics List below</h4>
             {
-                cosmetics.map(cosmetic => <Cosmetic key={cosmetic.id} cosmetic= {cosmetic}></Cosmetic>)
+                cosmetics.map(cosmetic => <Cosmetic key={cosmetic.id} cosmetic={cosmetic}></Cosmetic>)
+
             }
-        </div>
+        </div >
     );
 };
 

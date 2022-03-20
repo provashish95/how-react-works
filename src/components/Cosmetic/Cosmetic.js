@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Cosmetic = (props) => {
-    const {name , price, id} = props.cosmetic;
+    const { name, price, id } = props.cosmetic;
     return (
         <div>
             <h4>Name : {name}</h4>
