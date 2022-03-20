@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-
-
-
 const numbers = [56, 61, 15, 35];
 class Tablet extends Component {
     render() {
