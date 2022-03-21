@@ -6,7 +6,7 @@ class Tablet extends Component {
         return (
             <div>
                 <h2>this is class Component</h2>
-                <ul> {numbers.map(num => <li>{num}</li>)} </ul>
+                {/* <ul> {numbers.map(num => <li>{num}</li>)} </ul> */}
             </div>
         );
     }
